@@ -37,14 +37,23 @@
     font-family: 'Roboto', 'Ubuntu', sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    
 }
+
+/* Списки */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* Хедер */
 .hdr {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
+/* Лого */
 .logo {
     color: var(--logo-black-color);
     text-decoration: none;
@@ -53,17 +62,16 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
 }
-.logo-web {
-    color: var(--accent-color);
+
+.hdr-logo {
     display: inline-block;
     margin-top: 24px;
     margin-bottom: 25px;
 }
 
-.list {
-    list-style: none;
+.logo-web {
+    color: var(--accent-color);
 }
 
 /* Навігація */
@@ -93,6 +101,7 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 /* Герой */
 .hero {
     background-color: var(--footer-background-color);
@@ -132,17 +141,18 @@
     background-color: var(--button-hover-color);
 }
 
+/* Стилі секцій */
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
  /* Особливості  */
-
 .section.features {
     padding-bottom: 0;
 }
 
+/* Прихований заголовок */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -156,6 +166,7 @@
     overflow: hidden;
 }
 
+/* Назва особливості */
 .features-title {
     font-size: 14px;
     line-height: 1.14;
@@ -163,12 +174,14 @@
     margin-bottom: 10px;
 }
 
+/* Текст особливості */
 .features-text {
     line-height: 1.71;
     color: var(--secondary-text-color);
 }
 
 /* Чим займаємося */
+/* Заголовок */
 .section-title {
     font-size: 36px;
     line-height: 1.17;
@@ -181,9 +194,12 @@
     background-color: var(--secondary-background-color);
     text-align: center;
 }
+/* Картки працівників */
 .team-item{
     background-color: var(--primary-background-color);
 }
+
+/* Імена працівників */
 .team-item-title {
     font-weight: 500;
     font-size: 16px;
@@ -193,11 +209,12 @@
     margin-top: 30px;
 }
 
+/* Посада */
 .team-text{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.17;
-    
+    display: inline-block;
     margin-bottom: 30px;
 }
 
@@ -207,11 +224,10 @@
    padding-top: 60px;
    padding-bottom: 60px;
 }
+
 .ftr .logo-studio {
     color: var(--text-white-color);
    
-    display: inline-block;
-    margin-bottom: 20px;
 
 }
 
@@ -223,6 +239,8 @@
 .ftr-location {
     color: var(--text-white-color);
     text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .ftr .link:hover,
@@ -233,6 +251,8 @@
 .ftr-contacts {
     color: var(--mail-tel-color);
     text-decoration: none;
+    display: inline-block;
+    margin-top: 9px;
 }
 
 
