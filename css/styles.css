@@ -25,12 +25,19 @@
     --button-hover-color: #188CE8;
     --filter-button-color: #F5F4FA;
     }
+
+    h1, h2, h3, h4, h5, h6, p, ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 .body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', 'Ubuntu', sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
+    
 }
 /* Хедер */
 .hdr {
@@ -46,9 +53,13 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+
 }
 .logo-web {
     color: var(--accent-color);
+    display: inline-block;
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 
 .list {
@@ -75,6 +86,13 @@
 
 /* Мейн */
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* Герой */
 .hero {
     background-color: var(--footer-background-color);
@@ -88,6 +106,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-white-color);
+    margin-bottom: 30px;
 }
 .button {
     font-family: inherit;
@@ -105,6 +124,7 @@
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
+    min-width: 200px;
 }
 
 .button:hover,
@@ -112,7 +132,17 @@
     background-color: var(--button-hover-color);
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
  /* Особливості  */
+
+.section.features {
+    padding-bottom: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -130,6 +160,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .features-text {
@@ -142,6 +173,7 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 /* Наша команда */
@@ -157,20 +189,30 @@
     font-size: 16px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .team-text{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.17;
+    
+    margin-bottom: 30px;
 }
 
 /* Футер */
 .ftr {
    background-color: var(--footer-background-color); 
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 .ftr .logo-studio {
     color: var(--text-white-color);
+   
+    display: inline-block;
+    margin-bottom: 20px;
+
 }
 
 .ftr-address {
