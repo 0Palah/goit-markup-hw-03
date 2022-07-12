@@ -24,10 +24,11 @@
     --footer-background-color: #2F303A;
     --button-hover-color: #188CE8;
     --filter-button-color: #F5F4FA;
-    --outline-color-container: transparent;
+    
     --outline-color-container: #f00;
-    --outline-color-section: transparent;
+    --outline-color-container: transparent;
     --outline-color-section: #ff9900;
+    --outline-color-section: transparent;
     }
 
     h1, h2, h3, h4, h5, h6, p, ul {
