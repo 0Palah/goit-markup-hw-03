@@ -63,6 +63,9 @@ img {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Лого */
@@ -80,16 +83,44 @@ img {
     color: var(--accent-color);
 }
 
+
+.hdr-left {
+    display: flex;
+    align-items: center;
+}
+
+.hdr .logo {
+    margin-right: 93px;
+}
+
 /* Навігація */
+.site-nav {
+    display: flex;
+}
 
 .site-nav .link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px
+}
+
+
 .contacts-nav .link{
     color: var(--secondary-text-color);
     text-decoration: none;
 }
+
+.contacts-nav {
+    display: flex;
+}
+
+.contacts-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .hdr .link:hover, 
 .hdr .link:focus {
     color: var(--accent-color);
@@ -180,6 +211,19 @@ img {
     overflow: hidden;
 }
 
+.features-list {
+    display: flex;
+
+}
+
+.features-list .item {
+    width: calc((100% - 90px) / 4);
+}
+
+.features-list .item:not(:last-child){
+    margin-right: 30px;
+}
+
 /* Назва особливості */
 .features-title {
     font-size: 14px;
@@ -203,14 +247,30 @@ img {
     margin-bottom: 50px;
 }
 
+.speciality .list {
+    display: flex;
+}
+.speciality .item:not(:last-child) {
+ margin-right: 30px;
+}
+
 /* Наша команда */
 .team {
     background-color: var(--secondary-background-color);
     text-align: center;
 }
+
+.team-list {
+    display: flex;
+}
+
 /* Картки працівників */
 .team-item{
     background-color: var(--primary-background-color);
+}
+
+.team-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* Імена працівників */
