@@ -415,12 +415,14 @@ border-bottom: 1px solid var(--hdr-border-color);
 .works-card-bottom {
     border: 1px solid var(--works-cards-border-color);
     border-top: none;
+    padding: 20px 24px;
 }
 
 .works-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .works-text {
