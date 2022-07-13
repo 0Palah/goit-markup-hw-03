@@ -19,10 +19,9 @@
 <body class="body">
 
     <!-- Хедер -->
-    <header class="hdr container">
-    
-        <!-- Головна навігація -->
-        <div>
+    <header class="hdr-line">
+        <div class="hdr container">
+            <!-- Головна навігація -->
             <nav class="hdr-left">
                 <!-- Лого + Лінк "Головна сторінка" -->
                 <a lang="en" href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
@@ -34,15 +33,14 @@
                     <li class="item"><a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
-        </div>
     
-        <!-- Контакти -->
-        <div>
+            <!-- Контакти -->
             <ul class="contacts-nav list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="link hdr-mail">info@devstudio.com</a></li>
                 <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </div>
+    
     </header>
 
     <!-- Мейн -->
@@ -54,19 +52,19 @@
                 <!-- Фільтр -->
                 <ul class="list filter">
                     <li class="filter-item">
-                        <button type="button" class="filter-button active">Все</button>
+                        <button type="button" class="filter-button current active">Все</button>
                     </li>
                     <li class="filter-item">
-                        <button type="button" class="filter-button">Веб-сайты</button>
+                        <button type="button" class="filter-button active">Веб-сайты</button>
                     </li>
                     <li class="filter-item">
-                        <button type="button" class="filter-button">Приложения</button>
+                        <button type="button" class="filter-button active">Приложения</button>
                     </li>
                     <li class="filter-item">
-                        <button type="button" class="filter-button">Дизайн</button>
+                        <button type="button" class="filter-button active">Дизайн</button>
                     </li>
                     <li class="filter-item">
-                        <button type="button" class="filter-button">Маркетинг</button>
+                        <button type="button" class="filter-button active">Маркетинг</button>
                     </li>
                 </ul>
                 
@@ -74,8 +72,11 @@
                 <ul class="list works">
                     <li class="works-item">
                         <img src="./images/img-port-1.jpg" alt="Ноутбук с открытой страницей сайта" width="370">
-                        <h2 class="works-title"> Технокряк </h2>
-                        <p class="works-text"> Веб-сайт </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Технокряк </h2>
+                            <p class="works-text"> Веб-сайт </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-2.jpg" alt="Два баскетболиста соревнуются за мяч" width="370">
@@ -84,38 +85,59 @@
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-3.jpg" alt="Логотип ресторана" width="370">
-                        <h2 class="works-title"> Ресторан <span lang="en"> Seafood </span> </h2>
-                        <p class="works-text"> Приложение </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Ресторан <span lang="en"> Seafood </span> </h2>
+                            <p class="works-text"> Приложение </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-4.jpg" alt="Наушники полноразмерные" width="370">
-                        <h2 class="works-title"> Проект <span lang="en"> Prime </span></h2>
-                        <p class="works-text"> Маркетинг </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Проект <span lang="en"> Prime </span></h2>
+                            <p class="works-text"> Маркетинг </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-5.jpg" alt="Две коробки" width="370">
-                        <h2 class="works-title"> Проект <span lang="en"> Boxes </span></h2>
-                        <p class="works-text"> Приложение </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Проект <span lang="en"> Boxes </span></h2>
+                            <p class="works-text"> Приложение </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-6.jpg" alt="На мониторе выведена карта мира" width="370">
-                        <h2 class="works-title" lang="en"> Inspiration has no Borders </h2>
-                        <p class="works-text"> Веб-сайт </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title" lang="en"> Inspiration has no Borders </h2>
+                            <p class="works-text"> Веб-сайт </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-7.jpg" alt="Открытый журнал" width="370">
-                        <h2 class="works-title"> Издание <span lang="en"> Limited Edition </span></h2>
-                        <p class="works-text"> Дизайн </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Издание <span lang="en"> Limited Edition </span></h2>
+                            <p class="works-text"> Дизайн </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-8.jpg" alt="Бирка с названием проекта" width="370">
-                        <h2 class="works-title"> Проект <span lang="en"> LAB </span></h2>
-                        <p class="works-text"> Маркетинг </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title"> Проект <span lang="en"> LAB </span></h2>
+                            <p class="works-text"> Маркетинг </p>
+                        </div>
+                        
                     </li>
                     <li class="works-item">
                         <img src="./images/img-port-9.jpg" alt="Ноутбук с открытым приложением" width="370">
-                        <h2 class="works-title" lang="en"> Growing Business </h2>
-                        <p class="works-text"> Приложение </p>
+                        <div class="works-card-bottom">
+                            <h2 class="works-title" lang="en"> Growing Business </h2>
+                            <p class="works-text"> Приложение </p>
+                        </div>
+                        
                     </li>
                 </ul>
             </div>
